@@ -25,7 +25,6 @@ This project was built to turn a large, multi-table e-commerce operational datas
 | Power BI Desktop | Main platform for data modeling and report building |
 | Power Query | Data transformation and cleaning layer |
 | DAX | Calculated measures, KPIs, and time intelligence logic |
-| DirectQuery + Import | Hybrid data connectivity model for performance and freshness |
 
 ## Data Source
 
