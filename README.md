@@ -1,4 +1,4 @@
-# E-Commerce Business Intelligence Platform
+# E-Commerce Business Analysis
 
 A production-style analytics platform built on real-world e-commerce data, combining **PostgreSQL** for scalable data storage and query optimization with **Power BI** for interactive, decision-ready reporting.
 
