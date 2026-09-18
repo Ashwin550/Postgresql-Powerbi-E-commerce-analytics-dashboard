@@ -25,13 +25,13 @@ This project was built to turn a large, multi-table e-commerce operational datas
 | Power BI Desktop | Main platform for data modeling and report building |
 | Power Query | Data transformation and cleaning layer |
 | DAX | Calculated measures, KPIs, and time intelligence logic |
-| DirectQuery + Import | Hybrid data connectivity model for performance and freshness |
 
 ## Data Source
 
 - **9 base relational tables**: Customers, Geolocation, Products, Sellers, Orders, Order Items, Order Payments, Order Reviews, Product Category Name Translation
 - **~1,016,300+ total rows**, including a ~1,010,000-row geolocation table
 - **~70+ raw columns**, consolidated to **~20 optimized columns** at the reporting layer
+- **Dataset**: [Link](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 ## Features & Highlights
 
@@ -47,6 +47,7 @@ This project was built to turn a large, multi-table e-commerce operational datas
 5. Delivery & Logistics
 6. Reviews & Sentiment Analysis
 7. Payments & Installments
+8. Drill Through
 
 *(Plus a drill-through page for category/state-level diagnostics.)*
 
@@ -66,15 +67,13 @@ This project was built to turn a large, multi-table e-commerce operational datas
 - Flattened the 9-table relational structure into **1 core fact view** (`fact_sales`) and **4 dimension views**
 - Reduced ~70 raw columns to ~20 optimized, reporting-ready columns
 
-**Hybrid BI Architecture**
+**Import Method**
 - **DirectQuery** for large, frequently updated operational tables
-- **Import mode** for static dimension tables, improving in-memory performance
-- Balanced live data freshness against query speed
 
 ## How to Run / Reproduce
 
 1. Restore the PostgreSQL database using the provided schema/data dump
-2. Open the `.pbix` file in Power BI Desktop
+2. Open the `.pbix` file in Power BI Desktop (aslo available in .pbip format)
 3. Update the PostgreSQL connection details under **Transform Data → Data Source Settings**
 4. Refresh the model to load DirectQuery/Import tables
 5. Explore the 7 report pages via the navigation panel
@@ -85,4 +84,4 @@ This project was built to turn a large, multi-table e-commerce operational datas
 
 ## Author
 
-**Your Name** — [LinkedIn](https://linkedin.com/in/yourprofile) · [GitHub](https://github.com/yourusername)
+**Ashwin Jawale** — [LinkedIn](https://linkedin.com/in/ashwinjawale01)
