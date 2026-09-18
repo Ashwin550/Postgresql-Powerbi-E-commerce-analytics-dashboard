@@ -79,8 +79,11 @@ This project was built to turn a large, multi-table e-commerce operational datas
 5. Explore the 7 report pages via the navigation panel
 
 ## Screenshots / Demo
+#### Executive Overview Dashboard
+![Executive Overview Dashboard](https://github.com/Ashwin550/Postgresql-Powerbi-E-commerce-analytics-dashboard/blob/6bd9520b2791a043b3ed2695fef0dccf98bd1e35/Overview%20Executive%20Dashboard%20Image.png)
 
-*(Add dashboard screenshots here, e.g. `![Executive Overview](screenshots/overview.png)`)*
+#### Sales Trend Analysis
+![Sales Trend Image](https://github.com/Ashwin550/Postgresql-Powerbi-E-commerce-analytics-dashboard/blob/main/Sales%20trend%20image.png)
 
 ## Author
 
